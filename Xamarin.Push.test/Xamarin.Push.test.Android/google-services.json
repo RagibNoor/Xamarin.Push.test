@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "561928983426",
+    "firebase_url": "https://xf-push-test.firebaseio.com",
+    "project_id": "xf-push-test",
+    "storage_bucket": "xf-push-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561928983426:android:b8884051e482f2e76c759b",
+        "android_client_info": {
+          "package_name": "com.ragib.Xamarin.Push.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561928983426-hmhrscrs5d4ov701lolm73liiabvopr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxyq9IanoXqj0qKlmCXg13VS9DoOqXPKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561928983426-hmhrscrs5d4ov701lolm73liiabvopr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
