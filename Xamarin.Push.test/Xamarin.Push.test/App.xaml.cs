@@ -43,6 +43,7 @@ namespace Xamarin.Push.test
             #endregion
         }
 
+
         #region  Event for showing content
 
         private void OnPushNotificationReceived(object sender, PushNotificationReceivedEventArgs e)

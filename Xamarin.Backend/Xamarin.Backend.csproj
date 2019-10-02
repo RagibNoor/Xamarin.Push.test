@@ -69,6 +69,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\ObjectExtensions.cs" />
+    <Compile Include="Models\NotificationContent.cs" />
+    <Compile Include="Models\NotificationTarget.cs" />
+    <Compile Include="Models\PushNotification.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
