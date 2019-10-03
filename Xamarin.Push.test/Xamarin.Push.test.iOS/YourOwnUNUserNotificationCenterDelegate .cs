@@ -40,6 +40,9 @@ namespace Xamarin.Push.test.iOS
             if (response.IsDefaultAction)
             {
                 // User tapped on notification
+                UIAlertView _error = new UIAlertView("forground", "Data sync needed", null, "Ok", null);
+
+                _error.Show();
             }
 
             // This callback overrides the system default behavior, so MSPush callback should be proxied manually.

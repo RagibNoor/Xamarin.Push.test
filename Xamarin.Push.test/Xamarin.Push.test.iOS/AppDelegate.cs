@@ -37,7 +37,7 @@ namespace Xamarin.Push.test.iOS
             }
             #endregion
             #region start app service
-            AppCenter.Start("e8626b43-7fb9-4fbf-a9c1-127a07f3199e", typeof(Microsoft.AppCenter.Push.Push));
+            //AppCenter.Start("e8626b43-7fb9-4fbf-a9c1-127a07f3199e", typeof(Microsoft.AppCenter.Push.Push));
             #endregion
             if (UIDevice.CurrentDevice.CheckSystemVersion(10, 0))
             {
@@ -67,9 +67,15 @@ namespace Xamarin.Push.test.iOS
             }
             if (this._myOwnNotificationDelegate.didReceiveNotificationInForeground)
             {
-                //todo
-                // Handle the push notification that was received while in foreground.
+                
+                
+                // Present Alert
+                //PresentViewController(okAlertController, true, null);
+                UIAlertView _error = new UIAlertView("forground", "message recived in foreground", null, "Ok", null);
+
+                _error.Show();
             }
+            
 
 
             // Reset the property for next notifications.

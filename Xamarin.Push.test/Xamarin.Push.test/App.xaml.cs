@@ -25,11 +25,12 @@ namespace Xamarin.Push.test
 
             if (!AppCenter.Configured)
             {
-                Microsoft.AppCenter.Push.Push.PushNotificationReceived += OnPushNotificationReceived;
+               // Microsoft.AppCenter.Push.Push.PushNotificationReceived += OnPushNotificationReceived;
             }
             #endregion
             #region start app service
-            AppCenter.Start("e8626b43-7fb9-4fbf-a9c1-127a07f3199e", typeof(Microsoft.AppCenter.Push.Push));
+            
+            AppCenter.Start("7527047f-67e1-48d5-9e4d-a0bc4294fdf8", typeof(Microsoft.AppCenter.Push.Push));
             #endregion
 
             #region save app center install Id
