@@ -49,9 +49,10 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>ARM64</MtouchArch>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: Maeenul Islam (9C9NFY89L8)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignProvision>iOS Team Provisioning Profile: com.XF.Push.Apple</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>none</DebugType>
@@ -149,12 +150,18 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+    <PackageReference Include="Plugin.FirebasePushNotification">
+      <Version>2.3.6</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Xamarin.Push.test\Xamarin.Push.test.csproj">
-      <Project>{1FFAAB06-9D7A-4CAA-B324-D7C62B856C21}</Project>
+      <Project>{C60A8709-AAE6-4085-8B35-1BF11BDDBF6F}</Project>
       <Name>Xamarin.Push.test</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="GoogleService-Info.plist" />
   </ItemGroup>
 </Project>

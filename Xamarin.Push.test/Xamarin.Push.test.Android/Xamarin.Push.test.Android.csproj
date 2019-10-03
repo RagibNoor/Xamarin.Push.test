@@ -15,7 +15,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
     <NuGetPackageImportStamp>
@@ -93,7 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xamarin.Push.test\Xamarin.Push.test.csproj">
-      <Project>{1FFAAB06-9D7A-4CAA-B324-D7C62B856C21}</Project>
+      <Project>{C60A8709-AAE6-4085-8B35-1BF11BDDBF6F}</Project>
       <Name>Xamarin.Push.test</Name>
     </ProjectReference>
   </ItemGroup>
